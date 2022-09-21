@@ -1,0 +1,49 @@
+.NavBar{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    max-width: 100%;
+   position: relative;
+    
+
+}
+.NavBar img{
+    width: 50px;
+    height: 50px ;
+    margin-left: 20px;
+}
+.NavBar .nav-details{
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-details a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-details .shop{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.NavBar .btn-nav{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.NavBar .btn-nav .nav-icon{
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+.NavBar .btn-nav .btn-ContactUs{
+    width: 100px;
+    height: 40px;
+    background-image: linear-gradient(to right top, #ff6452, #ff5b8f, #e26cc5, #a885eb, #4e99f6);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

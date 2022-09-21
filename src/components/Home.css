@@ -1,0 +1,8 @@
+.Home{
+    overflow-x: hidden;
+    max-width:100%;
+    background-color: black;
+}
+.Home::-webkit-scrollbar{
+    display: none;
+}

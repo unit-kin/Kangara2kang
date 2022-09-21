@@ -1,0 +1,63 @@
+.Footer hr{
+    color:gray;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-text-social{
+    display: block;
+    margin-top: 20px;
+    
+}
+.logo-text-social img{
+    width: 60px;
+    height: 60px;
+}
+.logo-text-social p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    color: lightgray;
+}
+.logo-text-social .social-icons {
+    display: flex;
+    gap:2rem;
+    
+}
+.social-icons span{
+    display: flex;
+    width: 30px;
+    background-image: linear-gradient(to right top, #ff6452, #ff5b8f, #e26cc5, #a885eb, #4e99f6);
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+}
+.help{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.help p{
+    font-weight: 600;
+    font-size: larger;
+}
+.help ul{
+    list-style:none;
+    text-indent: -2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: lightgray;
+}
+.help li{
+    font-size: smaller;
+}
+.rights{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: smaller;
+    color: gray;
+    justify-content: center;
+
+}

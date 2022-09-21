@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'MicroExtendFLF', sans-serif;
+                                                
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  /* colors #ff6452 #4e99fg*/
+  /* typography MiroExtendedflf basic */
+  max-width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

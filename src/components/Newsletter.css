@@ -1,0 +1,48 @@
+.overlay-blur7{
+    margin-top: 0rem;
+    width: 170px;
+    height: 140px;
+    box-shadow: inset 0 0 0 3000px rgba(0, 0, 0, 0.192);
+    filter: blur(20rem);
+    background-color: #4e99f6;
+    position: absolute;
+    margin-left: -80rem;
+    
+   
+  }
+
+
+.Newsletter{
+ display: flex;
+ align-items: center;
+ justify-content:space-around;
+ width: 1200px;
+ margin-bottom: 20px;
+}
+.news-text{
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.form .overlay{
+    color: gray;
+    backdrop-filter: 0.9;
+    width: fit-content;
+}
+.form input{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    width:300px;
+    height: 40px;
+}
+.form input::placeholder{
+    color:gray;
+}
+.form button{
+    background-image: linear-gradient(to right top, #ff6452, #ff5b8f, #e26cc5, #a885eb, #4e99f6);
+    color: #fff;
+    border: none;
+    height: 42px;
+    border-radius: 0px 5px 5px 0px;
+}
