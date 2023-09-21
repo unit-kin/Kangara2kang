@@ -1,3 +1,5 @@
+###  An E-commerce store with functionalities such as Stripe integration and Firebase as the database. The main goal of the project was to learn Stripe as a payment API and React hooks.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
